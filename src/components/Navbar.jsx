@@ -94,10 +94,10 @@ export const Navbar = () => {
               />
               <p>Regresar</p>
             </div>
-            <NavLink to="/" className="py-2 pl-6 border">Inicio</NavLink>
-            <NavLink to="/collection" className="py-2 pl-6 border">Colección</NavLink>
-            <NavLink to="/about" className="py-2 pl-6 border">Sobre nosotros</NavLink>
-            <NavLink to="/contact" className="py-2 pl-6 border">Contacto</NavLink>
+            <NavLink onClick={()=>setVisible(false)} to="/" className="py-2 pl-6 border">Inicio</NavLink>
+            <NavLink onClick={()=>setVisible(false)} to="/collection" className="py-2 pl-6 border">Colección</NavLink>
+            <NavLink onClick={()=>setVisible(false)} to="/about" className="py-2 pl-6 border">Sobre nosotros</NavLink>
+            <NavLink onClick={()=>setVisible(false)} to="/contact" className="py-2 pl-6 border">Contacto</NavLink>
           </div>
         </div>
       </div>
