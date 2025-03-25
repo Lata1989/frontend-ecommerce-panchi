@@ -1,6 +1,6 @@
 // Minuto 18 Tailwind
 // https://www.youtube.com/watch?v=7E6um7NGmeE
-// Tiempo 1:01:00
+// Tiempo 1:07:00
 import { Routes, Route } from "react-router-dom";
 // Rutas
 import {About} from "./pages/About.jsx";
